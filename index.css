@@ -39,15 +39,14 @@
 	transition: filter var(--animation-time);
 }
 /* Blur user tag */
-.headerTag-2pZJzA > .username-2b1r56 + span {
-    filter: blur(var(--blur));
+.nameTag-m8r81H .discriminator-xUhQkU {
+	filter: blur(var(--blur));
     transition: filter var(--animation-time);
 }
-.headerTag-2pZJzA > .username-2b1r56 + span:hover {
+.nameTag-m8r81H:hover .discriminator-xUhQkU {
 	filter: blur(0px);
 }
 /**
 *	Blurring servers inspired and built on a snippet by mackenzie#0173 (<@574870314928832533>)
 *	Blurring DMs inspired and built on a snippet by LuckFire#4800 (<@399416615742996480>)
-*	Blurring user tag inspired and built on  a snippet by ezist#1065 (<@632082248954282014>)
 */
