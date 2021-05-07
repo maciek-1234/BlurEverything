@@ -38,12 +38,20 @@
 	filter: blur(0);
 	transition: filter var(--animation-time);
 }
-/* Blur user tag */
+/* Blur user tag in profile */
 .nameTag-m8r81H .discriminator-xUhQkU {
 	filter: blur(var(--blur));
     transition: filter var(--animation-time);
 }
 .nameTag-m8r81H:hover .discriminator-xUhQkU {
+	filter: blur(0px);
+}
+/* (-||-) in popout */
+.headerTagWithNickname-3IthZD > span:not(.username-2b1r56), .headerTagNoNickname-ENx6no > span:not(.username-2b1r56) {
+	filter: blur(var(--blur));
+    transition: filter var(--animation-time);
+}
+.headerTagWithNickname-3IthZD:hover > span:not(.username-2b1r56), .headerTagNoNickname-ENx6no:hover > span:not(.username-2b1r56) {
 	filter: blur(0px);
 }
 /**
