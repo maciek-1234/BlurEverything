@@ -2,7 +2,6 @@
 	--blur: 5px;
 	--animation-time: .12s;
 }
-
 /* Blur friends v2.0 */
 .peopleListItem-2nzedh {
 	filter: blur(5px);
@@ -11,7 +10,6 @@
 .peopleListItem-2nzedh:hover {
 	filter: blur(0px);
 }
-
 /* Blure active now page */
 .itemCard-v9viV7 {
 	filter: blur(5px);
@@ -20,7 +18,6 @@
 .itemCard-v9viV7:hover {
 	filter: blur(0px);
 }
-
 /* Blur servers*/
 [aria-label=Servers] .listItem-GuPuDH:not(.selected) svg {
 	--props: var(--animation-time) linear;
@@ -33,7 +30,6 @@
 	filter: none;
 	clip-path: none;
 }
-
 /* Blur DMs */
 #private-channels > .content-3YMskv > [role="listitem"]:not(.selected-aXhQR6):not([href="/channels/@me"]):not([href="/library"]):not([href="/store"]) {
 	filter: blur(var(--blur));
@@ -42,7 +38,6 @@
 	filter: blur(0);
 	transition: filter var(--animation-time);
 }
-
 /* Blur user tag */
 .headerTag-2pZJzA > .username-2b1r56 + span {
     filter: blur(var(--blur));
@@ -51,7 +46,6 @@
 .headerTag-2pZJzA > .username-2b1r56 + span:hover {
 	filter: blur(0px);
 }
-
 /**
 *	Blurring servers inspired and built on a snippet by mackenzie#0173 (<@574870314928832533>)
 *	Blurring DMs inspired and built on a snippet by LuckFire#4800 (<@399416615742996480>)
