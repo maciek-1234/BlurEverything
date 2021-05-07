@@ -1,0 +1,9 @@
+{
+    "name": "BlurEverything",
+    "description": "Powercord theme that blurs server list, dm list and more.",
+    "version": "1.0.0",
+    "author": "mać#6542",
+    "theme": "index.css",
+    "consent": "true",
+    "license": "MIT"
+}

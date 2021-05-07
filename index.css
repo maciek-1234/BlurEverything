@@ -1,0 +1,59 @@
+:root {
+	--blur: 5px;
+	--animation-time: .12s;
+}
+
+/* Blur friends v2.0 */
+.peopleListItem-2nzedh {
+	filter: blur(5px);
+	transition: all .12s ease-in-out;
+}
+.peopleListItem-2nzedh:hover {
+	filter: blur(0px);
+}
+
+/* Blure active now page */
+.itemCard-v9viV7 {
+	filter: blur(5px);
+	transition: all .12s ease-in-out;
+}
+.itemCard-v9viV7:hover {
+	filter: blur(0px);
+}
+
+/* Blur servers*/
+[aria-label=Servers] .listItem-GuPuDH:not(.selected) svg {
+	--props: var(--animation-time) linear;
+	filter: blur(var(--blur));
+	margin-bottom: 15px;
+	clip-path: circle(50% at center);
+	transition: clip-path var(--props), filter var(--props);
+}
+[aria-label=Servers] .listItem-GuPuDH:hover svg {
+	filter: none;
+	clip-path: none;
+}
+
+/* Blur DMs */
+#private-channels > .content-3YMskv > [role="listitem"]:not(.selected-aXhQR6):not([href="/channels/@me"]):not([href="/library"]):not([href="/store"]) {
+	filter: blur(var(--blur));
+}
+#private-channels > .content-3YMskv > [role="listitem"]:hover:not([href="/channels/@me"]):not([href="/library"]):not([href="/store"]) {
+	filter: blur(0);
+	transition: filter var(--animation-time);
+}
+
+/* Blur user tag */
+.headerTag-2pZJzA > .username-2b1r56 + span {
+    filter: blur(var(--blur));
+    transition: filter var(--animation-time);
+}
+.headerTag-2pZJzA > .username-2b1r56 + span:hover {
+	filter: blur(0px);
+}
+
+/**
+*	Bluring servers inspired and built on a snippet by mackenzie#0173 (<@574870314928832533>)
+*	Bluring DMs inspired and built on a snippet by LuckFire#4800 (<@399416615742996480>)
+*	Bluring user tag inspired and built on  a snippet by ezist#1065 (<@632082248954282014>)
+*/
