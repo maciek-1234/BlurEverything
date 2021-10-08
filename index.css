@@ -19,14 +19,14 @@
 	filter: blur(0px);
 }
 /* Blur servers*/
-[aria-label=Servers] .listItem-GuPuDH:not(.selected) svg {
+[aria-label=Servers] .listItem-1hlISG:not(.selected) svg {
 	--props: var(--animation-time) linear;
 	filter: blur(var(--blur));
 	margin-bottom: 15px;
 	clip-path: circle(50% at center);
 	transition: clip-path var(--props), filter var(--props);
 }
-[aria-label=Servers] .listItem-GuPuDH:hover svg {
+[aria-label=Servers] .listItem-1hlISG:hover svg {
 	filter: none;
 	clip-path: none;
 }
